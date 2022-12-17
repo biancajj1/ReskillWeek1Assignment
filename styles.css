@@ -1,0 +1,123 @@
+body{
+    font-family: Dosis;
+}
+
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container{
+    padding: 2em;
+
+}
+
+.top-navigation {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   }
+
+.top-navigation-left{
+    display:flex;
+    align-items: center;
+    gap: 1em;
+justify-content: space-between; 
+
+}
+.top-navigation-left img{
+width: 200px;
+
+}
+.top-navigation-links{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-navigation-right img{
+    width: 100px;
+    
+    
+    }
+
+
+    .gallery{
+        margin-top: 5rem;
+        margin-bottom: 5rem;;
+        display:grid;
+        grid-template-columns: repeat(4, 1 fr);
+        grid-template-rows: (2, 5vw);
+        grid-gap:15px;
+    }
+
+    .gallery__img{
+width: 25%;
+height: 50%;
+object-fit: cover;
+    }
+
+    .gallery__item--1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .gallery__item--2{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    
+    .gallery__item--3{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .gallery__item--4{
+        grid-column-start: 7;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .gallery__item--5{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 8;
+    }
+
+    .gallery__item--6{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 8;
+    }
+
+    .gallery__item--7{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 5;
+        grid-row-end: 8;
+    }
+
+    .gallery__item--8{
+        grid-column-start: 7;
+        grid-column-end: 8;
+        grid-row-start: 5;
+        grid-row-end: 8;
+    }
+
+    .footer{
+       text-align: center;
+    }
